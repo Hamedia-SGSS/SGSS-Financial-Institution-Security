@@ -46,7 +46,7 @@ export default function FinancialInstitutionSecurityPage() {
       <section className={styles.hero} id="hero">
         <div className={styles.heroBg}>
           <Image
-            src="/financial_hero.png"
+            src="https://cms.secureguardservices.com/wp-content/uploads/2026/09/fin1.png"
             alt="Secure Guard officer standing in front of a sleek financial institution branch at twilight"
             fill
             className={styles.heroBgImg}
@@ -138,7 +138,7 @@ export default function FinancialInstitutionSecurityPage() {
           <div className={styles.addonGrid}>
             <div className={styles.addonImageCol}>
               <Image 
-                src="/financial_patrol.png" 
+                src="https://cms.secureguardservices.com/wp-content/uploads/2026/09/fin2.png" 
                 alt="Secure Guard officer checking security access at a financial institution lobby" 
                 width={600} 
                 height={500} 
