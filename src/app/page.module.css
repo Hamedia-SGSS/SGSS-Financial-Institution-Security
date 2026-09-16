@@ -26,11 +26,14 @@
   right: 0;
   bottom: 0;
   z-index: 0;
+  overflow: hidden;
 }
 
 .heroBgImg {
   object-fit: cover;
   object-position: center top;
+  transform: scale(1.06) translateX(35px);
+  transform-origin: center top;
 }
 
 .heroOverlay {
@@ -39,9 +42,9 @@
   background: linear-gradient(
     to right,
     rgba(29, 44, 72, 0.94) 0%,
-    rgba(29, 44, 72, 0.85) 32%,
-    rgba(29, 44, 72, 0.35) 55%,
-    rgba(29, 44, 72, 0.05) 75%,
+    rgba(29, 44, 72, 0.85) 30%,
+    rgba(29, 44, 72, 0.3) 50%,
+    rgba(29, 44, 72, 0.05) 70%,
     rgba(29, 44, 72, 0) 100%
   );
 }
@@ -56,7 +59,7 @@
 
 .heroContent {
   width: 100%;
-  max-width: 680px;
+  max-width: 580px;
   padding-top: 40px;
   padding-bottom: 60px;
   animation: heroFadeIn 0.85s ease both;
